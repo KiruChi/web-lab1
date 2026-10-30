@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторна робота №1 — Варіант 2</title>
+    </head>
+    <body>
+        <table width="100%" cellpadding="10">
+            <tr>
+                <td colspan="2">
+                    <h2>Лабораторна робота №1 — Варіант 2</h2>
+                    <table width="100%" cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <b>Меню навігації:</b>
+                                <a href="#section1">Хімічна реакція</a> |
+                                <a href="#section2">Список груп</a> |
+                                <a href="#section3">Прогноз погоди</a> |
+                                <a href="#section4">Зображення та перехід</a> |
+                                <a href="#search-form">Форма пошуку</a> |
+                                <a href="page2.html">Друга сторінка</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="70%" valign="top">
+                    <h3>Основна частина</h3>
+
+                    <table width="100%" cellpadding="8" cellspacing="0" id="section1">
+                        <tr>
+                            <td>
+                                <h4>Розділ 1: Хімічна реакція</h4>
+                                <p>
+                                    Хімічна реакція <b>ортофосфорної</b> кислоти: 
+                                    P<sub>2</sub>O<sub>5</sub>+3H<sub>2</sub>O&rarr;H<sub>3</sub>PO<sub>4</sub>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <table width="100%" cellpadding="8" cellspacing="0" id="section2">
+                        <tr>
+                            <td>
+                                <h4>Розділ 2: Розподіл груп за спеціальностями</h4>
+                                <ul>
+                                    <li>Спеціальність F7 Комп’ютерна інженерія
+                                        <ul>
+                                            <li>КІУКІ-25-1</li>
+                                            <li>КІУКІ-25-2</li>
+                                            <li>КІУКІу-25-1</li>
+                                            <li>КІУКІу-25-2</li>
+                                        </ul>
+                                    </li>
+                                    <li>Кібербезпека
+                                        <ul>
+                                            <li>КБІКС-25-1</li>
+                                            <li>КБІКС-25-2</li>
+                                            <li>КБІКСу-25-1</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <table width="100%" cellpadding="8" cellspacing="0" id="section3">
+                        <tr>
+                            <td>
+                                <h4>Розділ 3: Прогноз погоди</h4>
+                                <table border="1" cellpadding="5" cellspacing="0">
+                                    <caption>Прогноз погоди</caption>
+                                    <tr>
+                                        <th>День</th>
+                                        <th>Час</th>
+                                        <th>Температура</th>
+                                        <th>Опади</th>
+                                        <th>Вітер</th>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">Понеділок</td>
+                                        <td>День</td>
+                                        <td>+12&deg;C</td>
+                                        <td>Хмарно</td>
+                                        <td>4 м/с</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ніч</td>
+                                        <td>+4&deg;C</td>
+                                        <td>Без опадів</td>
+                                        <td>2 м/с</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">Вівторок</td>
+                                        <td>День</td>
+                                        <td>+10&deg;C</td>
+                                        <td>Дощ</td>
+                                        <td>5 м/с</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ніч</td>
+                                        <td>+3&deg;C</td>
+                                        <td>Дощ</td>
+                                        <td>3 м/с</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">Середа</td>
+                                        <td>День</td>
+                                        <td>+14&deg;C</td>
+                                        <td>Ясно</td>
+                                        <td>2 м/с</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ніч</td>
+                                        <td>+6&deg;C</td>
+                                        <td>Ясно</td>
+                                        <td>1 м/с</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <table width="100%" cellpadding="8" cellspacing="0" id="section4">
+                        <tr>
+                            <td>
+                                <h4>Розділ 4: Зображення та перехід</h4>
+                                <p>
+                                    <img src="photos\image.jpg" alt="Зображення до варіанту 2" width="300" height="400">
+                                </p>
+                                <p>
+                                    <a href="page2.html">Перейти на другу сторінку (відносне посилання)</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td width="30%" valign="top">
+                    <table border="1" width="100%" cellpadding="8" cellspacing="0" id="search-form">
+                        <tr>
+                            <td>
+                                <h3>Пошук</h3>
+                                <form action="page2.html" method="get">
+                                    <p>
+                                        <label for="query">Запит:</label><br>
+                                        <input type="text" id="query" name="q" placeholder="Пошук..." required>
+                                    </p>
+                                    <p>
+                                        <label for="section">Розділ:</label><br>
+                                        <select id="section" name="section">
+                                            <option value="all">Усі розділи</option>
+                                            <option value="text">Текст</option>
+                                            <option value="groups">Групи</option>
+                                            <option value="weather">Погода</option>
+                                            <option value="images">Зображення</option>
+                                        </select>
+                                    </p>
+                                    <p>
+                                        <button type="submit">Знайти</button>
+                                        <button type="reset">Скинути</button>
+                                    </p>
+                                </form>
+
+                                <table border="1" width="100%" cellpadding="6" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <h4>Навігація</h4>
+                                            <ul>
+                                                <li><a href="#section1">До хімічної формули</a></li>
+                                                <li><a href="#section2">До списку груп</a></li>
+                                                <li><a href="#section3">До прогнозу погоди</a></li>
+                                                <li><a href="#section4">До зображення</a></li>
+                                                <li><a href="page2.html">На сторінку 2</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <p><b>Footer сторінки:</b> Лабораторна робота №1. Варіант 2. 2026 рік.</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
